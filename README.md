@@ -1,1 +1,1 @@
-![Alt text](/relative/path/to/img.jpg?raw=true "Screenshot")
+![Alt text](/screenshot.png?raw=true "Screenshot")
