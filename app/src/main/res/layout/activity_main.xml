@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_main_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C5CAE9"/>
+
+    <include
+        layout="@layout/layout_days_of_week"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="3dp"/>
+
+</FrameLayout>
+
